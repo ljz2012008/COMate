@@ -8,5 +8,7 @@ target 'COMate' do
   # Pods for COMate
 	pod 'ORSSerialPort', '~> 2.0.2'
     pod 'MASPreferences', '~> 1.1.4'
+    pod 'CocoaLumberjack', '~> 3.2.0'
+    pod 'Masonry', '~> 1.0.2'
 
 end

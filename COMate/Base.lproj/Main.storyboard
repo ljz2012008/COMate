@@ -674,6 +674,12 @@
                         <rect key="contentRect" x="254" y="593" width="300" height="300"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
                         <value key="minSize" type="size" width="300" height="300"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="titleBarHeight">
+                                <real key="value" value="100"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="hideTite" value="YES"/>
+                        </userDefinedRuntimeAttributes>
                     </window>
                     <connections>
                         <outlet property="comWindow" destination="IQv-IB-iLA" id="nG6-YC-XGi"/>

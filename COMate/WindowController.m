@@ -23,6 +23,7 @@
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 //    [sel setTitleVisibility:NSWindowTitleHidden];
 //    [self.comWindow setTitleVisibility:NSWindowTitleHidden];
+    [self.comWindow setTitleBarHeight:100];
 }
 
 @end

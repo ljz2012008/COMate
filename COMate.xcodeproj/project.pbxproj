@@ -73,6 +73,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7923FC031ED2916700E6AD56 /* Main Page */ = {
+			isa = PBXGroup;
+			children = (
+				79A174841ECEDFF00023C742 /* WindowController.h */,
+				79A174851ECEDFF00023C742 /* WindowController.m */,
+				79A174691ECEC5070023C742 /* ViewController.h */,
+				79A1746A1ECEC5070023C742 /* ViewController.m */,
+				79C204351ECEED1E009F659B /* COMWindow.h */,
+				79C204361ECEED1E009F659B /* COMWindow.m */,
+			);
+			name = "Main Page";
+			sourceTree = "<group>";
+		};
 		79A174571ECEC5070023C742 = {
 			isa = PBXGroup;
 			children = (
@@ -94,15 +107,10 @@
 		79A174621ECEC5070023C742 /* COMate */ = {
 			isa = PBXGroup;
 			children = (
-				79A174791ECECAC60023C742 /* Preferences */,
 				79A174631ECEC5070023C742 /* AppDelegate.h */,
 				79A174641ECEC5070023C742 /* AppDelegate.m */,
-				79A174841ECEDFF00023C742 /* WindowController.h */,
-				79A174851ECEDFF00023C742 /* WindowController.m */,
-				79A174691ECEC5070023C742 /* ViewController.h */,
-				79A1746A1ECEC5070023C742 /* ViewController.m */,
-				79C204351ECEED1E009F659B /* COMWindow.h */,
-				79C204361ECEED1E009F659B /* COMWindow.m */,
+				79A174791ECECAC60023C742 /* Preferences */,
+				7923FC031ED2916700E6AD56 /* Main Page */,
 				79A1746C1ECEC5070023C742 /* Assets.xcassets */,
 				79A1746E1ECEC5070023C742 /* Main.storyboard */,
 				79A174711ECEC5070023C742 /* Info.plist */,
