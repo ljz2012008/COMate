@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84F297BD1E49B18200CC4881 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297BC1E49B18200CC4881 /* AppDelegate.m */; };
+		84F297C01E49B18200CC4881 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297BF1E49B18200CC4881 /* main.m */; };
+		84F297C21E49B18200CC4881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F297C11E49B18200CC4881 /* Assets.xcassets */; };
+		84F297C51E49B18200CC4881 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297C31E49B18200CC4881 /* MainMenu.xib */; };
+		84F297D01E49B18200CC4881 /* titlebarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297CF1E49B18200CC4881 /* titlebarTests.m */; };
+		84F297DB1E49B18200CC4881 /* titlebarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297DA1E49B18200CC4881 /* titlebarUITests.m */; };
+		84F297EA1E49B19200CC4881 /* MyTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297E91E49B19200CC4881 /* MyTitleView.m */; };
+		84F297EE1E49B1A800CC4881 /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F297EC1E49B1A800CC4881 /* WC.m */; };
+		84F297EF1E49B1A800CC4881 /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84F297ED1E49B1A800CC4881 /* WC.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84F297CC1E49B18200CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F297B01E49B18200CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F297B71E49B18200CC4881;
+			remoteInfo = titlebar;
+		};
+		84F297D71E49B18200CC4881 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F297B01E49B18200CC4881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84F297B71E49B18200CC4881;
+			remoteInfo = titlebar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84F297B81E49B18200CC4881 /* titlebar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = titlebar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F297BB1E49B18200CC4881 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84F297BC1E49B18200CC4881 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84F297BF1E49B18200CC4881 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84F297C11E49B18200CC4881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F297C41E49B18200CC4881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		84F297C61E49B18200CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297CB1E49B18200CC4881 /* titlebarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titlebarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F297CF1E49B18200CC4881 /* titlebarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = titlebarTests.m; sourceTree = "<group>"; };
+		84F297D11E49B18200CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297D61E49B18200CC4881 /* titlebarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = titlebarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F297DA1E49B18200CC4881 /* titlebarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = titlebarUITests.m; sourceTree = "<group>"; };
+		84F297DC1E49B18200CC4881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84F297E81E49B19200CC4881 /* MyTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTitleView.h; sourceTree = "<group>"; };
+		84F297E91E49B19200CC4881 /* MyTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTitleView.m; sourceTree = "<group>"; };
+		84F297EB1E49B1A800CC4881 /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84F297EC1E49B1A800CC4881 /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84F297ED1E49B1A800CC4881 /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84F297B51E49B18200CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297C81E49B18200CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297D31E49B18200CC4881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84F297AF1E49B18200CC4881 = {
+			isa = PBXGroup;
+			children = (
+				84F297BA1E49B18200CC4881 /* titlebar */,
+				84F297CE1E49B18200CC4881 /* titlebarTests */,
+				84F297D91E49B18200CC4881 /* titlebarUITests */,
+				84F297B91E49B18200CC4881 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84F297B91E49B18200CC4881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F297B81E49B18200CC4881 /* titlebar.app */,
+				84F297CB1E49B18200CC4881 /* titlebarTests.xctest */,
+				84F297D61E49B18200CC4881 /* titlebarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F297BA1E49B18200CC4881 /* titlebar */ = {
+			isa = PBXGroup;
+			children = (
+				84F297E81E49B19200CC4881 /* MyTitleView.h */,
+				84F297E91E49B19200CC4881 /* MyTitleView.m */,
+				84F297BB1E49B18200CC4881 /* AppDelegate.h */,
+				84F297BC1E49B18200CC4881 /* AppDelegate.m */,
+				84F297C11E49B18200CC4881 /* Assets.xcassets */,
+				84F297C31E49B18200CC4881 /* MainMenu.xib */,
+				84F297C61E49B18200CC4881 /* Info.plist */,
+				84F297BE1E49B18200CC4881 /* Supporting Files */,
+				84F297EB1E49B1A800CC4881 /* WC.h */,
+				84F297EC1E49B1A800CC4881 /* WC.m */,
+				84F297ED1E49B1A800CC4881 /* WC.xib */,
+			);
+			path = titlebar;
+			sourceTree = "<group>";
+		};
+		84F297BE1E49B18200CC4881 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84F297BF1E49B18200CC4881 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84F297CE1E49B18200CC4881 /* titlebarTests */ = {
+			isa = PBXGroup;
+			children = (
+				84F297CF1E49B18200CC4881 /* titlebarTests.m */,
+				84F297D11E49B18200CC4881 /* Info.plist */,
+			);
+			path = titlebarTests;
+			sourceTree = "<group>";
+		};
+		84F297D91E49B18200CC4881 /* titlebarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84F297DA1E49B18200CC4881 /* titlebarUITests.m */,
+				84F297DC1E49B18200CC4881 /* Info.plist */,
+			);
+			path = titlebarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84F297B71E49B18200CC4881 /* titlebar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F297DF1E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebar" */;
+			buildPhases = (
+				84F297B41E49B18200CC4881 /* Sources */,
+				84F297B51E49B18200CC4881 /* Frameworks */,
+				84F297B61E49B18200CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = titlebar;
+			productName = titlebar;
+			productReference = 84F297B81E49B18200CC4881 /* titlebar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84F297CA1E49B18200CC4881 /* titlebarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F297E21E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebarTests" */;
+			buildPhases = (
+				84F297C71E49B18200CC4881 /* Sources */,
+				84F297C81E49B18200CC4881 /* Frameworks */,
+				84F297C91E49B18200CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F297CD1E49B18200CC4881 /* PBXTargetDependency */,
+			);
+			name = titlebarTests;
+			productName = titlebarTests;
+			productReference = 84F297CB1E49B18200CC4881 /* titlebarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84F297D51E49B18200CC4881 /* titlebarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F297E51E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebarUITests" */;
+			buildPhases = (
+				84F297D21E49B18200CC4881 /* Sources */,
+				84F297D31E49B18200CC4881 /* Frameworks */,
+				84F297D41E49B18200CC4881 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84F297D81E49B18200CC4881 /* PBXTargetDependency */,
+			);
+			name = titlebarUITests;
+			productName = titlebarUITests;
+			productReference = 84F297D61E49B18200CC4881 /* titlebarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F297B01E49B18200CC4881 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84F297B71E49B18200CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					84F297CA1E49B18200CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F297B71E49B18200CC4881;
+					};
+					84F297D51E49B18200CC4881 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 84F297B71E49B18200CC4881;
+					};
+				};
+			};
+			buildConfigurationList = 84F297B31E49B18200CC4881 /* Build configuration list for PBXProject "titlebar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F297AF1E49B18200CC4881;
+			productRefGroup = 84F297B91E49B18200CC4881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F297B71E49B18200CC4881 /* titlebar */,
+				84F297CA1E49B18200CC4881 /* titlebarTests */,
+				84F297D51E49B18200CC4881 /* titlebarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84F297B61E49B18200CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F297C21E49B18200CC4881 /* Assets.xcassets in Resources */,
+				84F297EF1E49B1A800CC4881 /* WC.xib in Resources */,
+				84F297C51E49B18200CC4881 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297C91E49B18200CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297D41E49B18200CC4881 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84F297B41E49B18200CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F297EA1E49B19200CC4881 /* MyTitleView.m in Sources */,
+				84F297EE1E49B1A800CC4881 /* WC.m in Sources */,
+				84F297C01E49B18200CC4881 /* main.m in Sources */,
+				84F297BD1E49B18200CC4881 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297C71E49B18200CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F297D01E49B18200CC4881 /* titlebarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F297D21E49B18200CC4881 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F297DB1E49B18200CC4881 /* titlebarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84F297CD1E49B18200CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F297B71E49B18200CC4881 /* titlebar */;
+			targetProxy = 84F297CC1E49B18200CC4881 /* PBXContainerItemProxy */;
+		};
+		84F297D81E49B18200CC4881 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84F297B71E49B18200CC4881 /* titlebar */;
+			targetProxy = 84F297D71E49B18200CC4881 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84F297C31E49B18200CC4881 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84F297C41E49B18200CC4881 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84F297DD1E49B18200CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84F297DE1E49B18200CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84F297E01E49B18200CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84F297E11E49B18200CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84F297E31E49B18200CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/titlebar.app/Contents/MacOS/titlebar";
+			};
+			name = Debug;
+		};
+		84F297E41E49B18200CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/titlebar.app/Contents/MacOS/titlebar";
+			};
+			name = Release;
+		};
+		84F297E61E49B18200CC4881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = titlebar;
+			};
+			name = Debug;
+		};
+		84F297E71E49B18200CC4881 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = titlebarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aifro.titlebarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = titlebar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84F297B31E49B18200CC4881 /* Build configuration list for PBXProject "titlebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297DD1E49B18200CC4881 /* Debug */,
+				84F297DE1E49B18200CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F297DF1E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297E01E49B18200CC4881 /* Debug */,
+				84F297E11E49B18200CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F297E21E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297E31E49B18200CC4881 /* Debug */,
+				84F297E41E49B18200CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84F297E51E49B18200CC4881 /* Build configuration list for PBXNativeTarget "titlebarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F297E61E49B18200CC4881 /* Debug */,
+				84F297E71E49B18200CC4881 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F297B01E49B18200CC4881 /* Project object */;
+}
