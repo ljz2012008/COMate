@@ -56,7 +56,7 @@ NSString *const kFocusedAdvancedControlIndex = @"FocusedAdvancedControlIndex";
 #pragma mark - NSApplicationDelegate
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    
+    NSString * test = @"";
 }
 
 
