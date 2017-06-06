@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1819A4D43CBEC8F2618A2A54 /* libPods-COMate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0079A65B3BA303C41DF5B236 /* libPods-COMate.a */; };
+		1D6179E51EE6988F00AADA3B /* COMTitlebarAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6179E41EE6988F00AADA3B /* COMTitlebarAccessoryView.m */; };
 		7923FC001ED2883900E6AD56 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7923FBFD1ED2883900E6AD56 /* 1.png */; };
 		7923FC011ED2883900E6AD56 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7923FBFE1ED2883900E6AD56 /* 3.png */; };
 		7923FC021ED2883900E6AD56 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7923FBFF1ED2883900E6AD56 /* 2.png */; };
@@ -26,6 +27,8 @@
 
 /* Begin PBXFileReference section */
 		0079A65B3BA303C41DF5B236 /* libPods-COMate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COMate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6179E31EE6988F00AADA3B /* COMTitlebarAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COMTitlebarAccessoryView.h; sourceTree = "<group>"; };
+		1D6179E41EE6988F00AADA3B /* COMTitlebarAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COMTitlebarAccessoryView.m; sourceTree = "<group>"; };
 		7923FBFD1ED2883900E6AD56 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		7923FBFE1ED2883900E6AD56 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		7923FBFF1ED2883900E6AD56 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
@@ -82,6 +85,8 @@
 				79A1746A1ECEC5070023C742 /* ViewController.m */,
 				79C204351ECEED1E009F659B /* COMWindow.h */,
 				79C204361ECEED1E009F659B /* COMWindow.m */,
+				1D6179E31EE6988F00AADA3B /* COMTitlebarAccessoryView.h */,
+				1D6179E41EE6988F00AADA3B /* COMTitlebarAccessoryView.m */,
 			);
 			name = "Main Page";
 			sourceTree = "<group>";
@@ -280,6 +285,7 @@
 			files = (
 				79A174821ECECAD30023C742 /* AdvancedPreferencesViewController.m in Sources */,
 				79A174861ECEDFF00023C742 /* WindowController.m in Sources */,
+				1D6179E51EE6988F00AADA3B /* COMTitlebarAccessoryView.m in Sources */,
 				79A174801ECECAD30023C742 /* GeneralPreferencesViewController.m in Sources */,
 				79C204371ECEED1E009F659B /* COMWindow.m in Sources */,
 				79A1746B1ECEC5070023C742 /* ViewController.m in Sources */,

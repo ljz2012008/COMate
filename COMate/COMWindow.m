@@ -7,6 +7,7 @@
 //
 
 #import "COMWindow.h"
+#import "COMTitlebarAccessoryView.h"
 
 @interface COMWindow () <NSWindowDelegate>
 
@@ -16,8 +17,6 @@
 @end
 
 @implementation COMWindow
-
-
 
 #pragma mark - NSWindow Overwritings
 - (instancetype)initWithContentRect:(NSRect)contentRect styleMask:(NSWindowStyleMask)style backing:(NSBackingStoreType)bufferingType defer:(BOOL)flag
@@ -50,11 +49,14 @@
     if (_dummyTitlebarAccessoryViewController) {
         [self removeTitlebarAccessoryViewControllerAtIndex:0];
     }
+    NSArray *arrt = self.titlebarAccessoryViewControllers;
+    COMTitlebarAccessoryView *view = [[COMTitlebarAccessoryView alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+//    [view setImage:[NSImage imageNamed:@"123.png"]];
     
-    NSView *view = [[NSView alloc] initWithFrame:NSMakeRect(0, 0, 10, 10)];
     _dummyTitlebarAccessoryViewController = [NSTitlebarAccessoryViewController new];
     _dummyTitlebarAccessoryViewController.view = view;
-    
+    [_dummyTitlebarAccessoryViewController.view setAutoresizesSubviews:YES];
+//    _dummyTitlebarAccessoryViewController.layoutAttribute = NSLayoutAttributeRight;
     _dummyTitlebarAccessoryViewController.fullScreenMinHeight = titleBarHeight;
     [self addTitlebarAccessoryViewController:_dummyTitlebarAccessoryViewController];
     
@@ -92,16 +94,21 @@
 
 - (void)_setNeedLayout
 {
+    NSView *view = [_standardButtons[0] superview];
+    [_standardButtons[0] removeFromSuperview];
+    [_standardButtons[1] removeFromSuperview];
+    [_standardButtons[2] removeFromSuperview];
     [_standardButtons enumerateObjectsUsingBlock:^(NSButton*  _Nonnull standardButton, NSUInteger idx, BOOL * _Nonnull stop) {
         NSRect frame = standardButton.frame;
         if (_centerTrafficLightButtons) {
-            frame.origin.y = NSHeight([[standardButton superview] frame]) /2 - NSHeight(frame) / 2;
+            frame.origin.y = NSHeight([view frame]) /2 - NSHeight(frame) / 2;
         } else {
-            frame.origin.y = NSHeight([[standardButton superview] frame]) - NSHeight(frame) - _trafficLightButtonsTopMargin;
+            frame.origin.y = NSHeight([view frame]) - NSHeight(frame) - _trafficLightButtonsTopMargin;
         }
         
         frame.origin.x = _trafficLightButtonsLeftMargin + idx*(NSWidth(frame) + 6);
         [standardButton setFrame:frame];
+        [view addSubview:standardButton];
     }];
 }
 
