@@ -21,10 +21,11 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
-    [self.window setTitleVisibility:NSWindowTitleHidden];
+//    [self.window setTitleVisibility:NSWindowTitleHidden];
     [self.comWindow setTitleVisibility:NSWindowTitleHidden];
-    [self.comWindow setTitleBarHeight:300];
-//    self.window.styleMask |= NSFullSizeContentViewWindowMask;
+    [self.comWindow setTitleBarHeight:100];
+//    [self.comWindow setHideTite:NO];
+    self.window.styleMask |= NSFullSizeContentViewWindowMask;
     self.window.titlebarAppearsTransparent = true;
 }
 

@@ -49,20 +49,25 @@
     if (_dummyTitlebarAccessoryViewController) {
         [self removeTitlebarAccessoryViewControllerAtIndex:0];
     }
-    NSArray *arrt = self.titlebarAccessoryViewControllers;
-    COMTitlebarAccessoryView *view = [[COMTitlebarAccessoryView alloc] initWithFrame:NSMakeRect(0, 0, 100, 100)];
+    
+    COMTitlebarAccessoryView *view = [[COMTitlebarAccessoryView alloc] initWithFrame:NSMakeRect(0, 0, 10, _titleBarHeight)];
 //    [view setImage:[NSImage imageNamed:@"123.png"]];
     
     _dummyTitlebarAccessoryViewController = [NSTitlebarAccessoryViewController new];
     _dummyTitlebarAccessoryViewController.view = view;
     [_dummyTitlebarAccessoryViewController.view setAutoresizesSubviews:YES];
-//    _dummyTitlebarAccessoryViewController.layoutAttribute = NSLayoutAttributeRight;
+//    _dummyTitlebarAccessoryViewController.layoutAttribute = NSLayoutAttributeNotAnAttribute;
     _dummyTitlebarAccessoryViewController.fullScreenMinHeight = titleBarHeight;
     [self addTitlebarAccessoryViewController:_dummyTitlebarAccessoryViewController];
     
+    NSArray *cView = [[_dummyTitlebarAccessoryViewController.view superview] subviews];
+    
+    NSRect tempRect = ((NSView *)cView[0]).frame;
+    NSLog(@"%f-%f-%f-%f", tempRect.origin.x, tempRect.origin.y, tempRect.size.width, tempRect.size.height);
     
     [self _setNeedLayout];
     NSRect frame = self.frame;
+
 //    frame.size.height 
     [self setFrame:frame display:NO];
 }
@@ -82,7 +87,8 @@
     
     self.styleMask |= NSFullSizeContentViewWindowMask;
     
-    self.hideTite = YES;
+    
+//    self.hideTite = YES;
     
     _centerTrafficLightButtons = YES;
     _trafficLightButtonsTopMargin = 0.0;
@@ -95,9 +101,9 @@
 - (void)_setNeedLayout
 {
     NSView *view = [_standardButtons[0] superview];
-    [_standardButtons[0] removeFromSuperview];
-    [_standardButtons[1] removeFromSuperview];
-    [_standardButtons[2] removeFromSuperview];
+    NSArray *subV = [view subviews];
+//    [subV[3] setBackgroundColor:[NSColor redColor]];
+//    NSRect rRect = [subV[3] frame];
     [_standardButtons enumerateObjectsUsingBlock:^(NSButton*  _Nonnull standardButton, NSUInteger idx, BOOL * _Nonnull stop) {
         NSRect frame = standardButton.frame;
         if (_centerTrafficLightButtons) {

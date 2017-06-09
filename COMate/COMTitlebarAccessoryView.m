@@ -15,7 +15,8 @@
     
     // Drawing code here.
     //// Color Declarations
-    NSColor* color = [NSColor colorWithCalibratedRed: 0 green: 0.31 blue: 0.478 alpha: 1];
+//    NSColor* color = [NSColor colorWithCalibratedRed: 0 green: 0.31 blue: 0.478 alpha: 1];
+    NSColor* color = [NSColor colorWithCalibratedRed: 0.129 green: 0.372 blue: 0.238 alpha: 1];
     
     //// Rectangle Drawing
     NSBezierPath* rectanglePath = [NSBezierPath bezierPathWithRect: self.frame];
@@ -23,5 +24,7 @@
     [rectanglePath fill];
 
 }
+
+
 
 @end
