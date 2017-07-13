@@ -10,5 +10,6 @@ target 'COMate' do
     pod 'MASPreferences', '~> 1.1.4'
     pod 'CocoaLumberjack', '~> 3.2.0'
     pod 'Masonry', '~> 1.0.2'
+    pod 'INAppStoreWindow', '~> 1.4'
 
 end
