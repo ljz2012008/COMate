@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12120"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainDeviceListTableCellView"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="CMDeviceIdentifier" id="c22-O7-iKe" customClass="MainDeviceListTableCellView">
+            <rect key="frame" x="0.0" y="0.0" width="481" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K4M-is-fjm">
+                    <rect key="frame" x="60" y="11" width="297" height="28"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Label" id="zKV-yQ-jLJ">
+                        <font key="font" metaFont="system" size="23"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J10-Ia-6ux">
+                    <rect key="frame" x="10" y="5" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="JSm-Yh-CUV"/>
+                        <constraint firstAttribute="height" constant="40" id="Xbl-fu-sRI"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="SerialPort1" id="zIg-2Q-WkX"/>
+                </imageView>
+                <customView translatesAutoresizingMaskIntoConstraints="NO" id="Kfc-W7-oyI" customClass="MainDeviceFlagView">
+                    <rect key="frame" x="405" y="14" width="56" height="22"/>
+                    <subviews>
+                        <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ibw-j6-pVB">
+                            <rect key="frame" x="0.0" y="0.0" width="16" height="22"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="NSStatusAvailable" id="T8p-Eh-oZk"/>
+                        </imageView>
+                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-4n-Xy5">
+                            <rect key="frame" x="13" y="3" width="40" height="16"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="disable" id="Dsy-Gk-PEd">
+                                <font key="font" metaFont="smallSystem"/>
+                                <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                            </textFieldCell>
+                        </textField>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="56" id="Rmy-B9-N24"/>
+                        <constraint firstAttribute="height" constant="22" id="rf8-0W-uve"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="flagField" destination="mOt-4n-Xy5" id="LUt-m5-y5S"/>
+                        <outlet property="flagImageView" destination="Ibw-j6-pVB" id="kcb-Tc-tTO"/>
+                    </connections>
+                </customView>
+                <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qcm-2F-CPw">
+                    <rect key="frame" x="256" y="22" width="43" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <buttonCell key="cell" type="inline" title="Inline" bezelStyle="inline" alignment="center" borderStyle="border" inset="2" id="a19-oW-o66">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="smallSystemBold"/>
+                    </buttonCell>
+                </button>
+                <tokenField verticalHuggingPriority="750" fixedFrame="YES" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cA2-eK-mDO">
+                    <rect key="frame" x="275" y="11" width="136" height="17"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <tokenFieldCell key="cell" selectable="YES" editable="YES" alignment="left" title="asd,asd" allowsEditingTextAttributes="YES" id="B3z-TN-usl">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                    </tokenFieldCell>
+                </tokenField>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="J10-Ia-6ux" secondAttribute="bottom" constant="5" id="2Fi-gj-2TJ"/>
+                <constraint firstAttribute="trailing" secondItem="Kfc-W7-oyI" secondAttribute="trailing" constant="20" id="56x-ZP-arH"/>
+                <constraint firstItem="K4M-is-fjm" firstAttribute="leading" secondItem="J10-Ia-6ux" secondAttribute="trailing" constant="12" id="7n5-T9-afu"/>
+                <constraint firstAttribute="bottom" secondItem="Kfc-W7-oyI" secondAttribute="bottom" constant="14" id="ARG-h7-VbP"/>
+                <constraint firstItem="Kfc-W7-oyI" firstAttribute="leading" secondItem="K4M-is-fjm" secondAttribute="trailing" constant="50" id="E9X-wL-uYS"/>
+                <constraint firstItem="J10-Ia-6ux" firstAttribute="leading" secondItem="c22-O7-iKe" secondAttribute="leading" constant="10" id="KBd-Tm-y3W"/>
+                <constraint firstItem="J10-Ia-6ux" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="5" id="NtY-ML-ctl"/>
+                <constraint firstAttribute="bottom" secondItem="K4M-is-fjm" secondAttribute="bottom" constant="11" id="QWc-La-ZqH"/>
+                <constraint firstItem="Kfc-W7-oyI" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="14" id="iRw-62-muy"/>
+                <constraint firstItem="K4M-is-fjm" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="11" id="tyg-0w-LTT"/>
+            </constraints>
+            <connections>
+                <outlet property="avatarView" destination="J10-Ia-6ux" id="R4b-jb-fWJ"/>
+                <outlet property="flagView" destination="Kfc-W7-oyI" id="wuB-7W-WHB"/>
+                <outlet property="titleField" destination="K4M-is-fjm" id="mA2-1E-dwa"/>
+            </connections>
+            <point key="canvasLocation" x="140.5" y="123"/>
+        </customView>
+    </objects>
+    <resources>
+        <image name="NSStatusAvailable" width="16" height="16"/>
+        <image name="SerialPort1" width="128" height="128"/>
+    </resources>
+</document>

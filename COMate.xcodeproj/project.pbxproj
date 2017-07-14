@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7262273D727C77F63A49435F /* libPods-COMate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE91ECF1BF9C4B98B9265FC /* libPods-COMate.a */; };
+		79641A2F1ECE93760019BA00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79641A2E1ECE93760019BA00 /* AppDelegate.m */; };
+		79641A321ECE93760019BA00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79641A311ECE93760019BA00 /* main.m */; };
+		79641A371ECE93760019BA00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79641A361ECE93760019BA00 /* Assets.xcassets */; };
+		7999444D1F139DEB004D5D12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7999444C1F139DEB004D5D12 /* MainMenu.xib */; };
+		799944511F13A08A004D5D12 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999444F1F13A08A004D5D12 /* MainWindowController.m */; };
+		799944521F13A08A004D5D12 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944501F13A08A004D5D12 /* MainWindowController.xib */; };
+		799944551F146A2B004D5D12 /* MainDeviceListTableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944541F146A2B004D5D12 /* MainDeviceListTableCellView.m */; };
+		799944571F146A3E004D5D12 /* MainDeviceListTableCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944561F146A3E004D5D12 /* MainDeviceListTableCellView.xib */; };
+		7999445B1F147159004D5D12 /* CMEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999445A1F147159004D5D12 /* CMEntity.m */; };
+		799944611F147A6B004D5D12 /* CMUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944601F147A6B004D5D12 /* CMUser.m */; };
+		799944661F151FDE004D5D12 /* SerialPortWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944641F151FDE004D5D12 /* SerialPortWindowController.m */; };
+		799944671F151FDE004D5D12 /* SerialPortWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944651F151FDE004D5D12 /* SerialPortWindowController.xib */; };
+		7999446B1F15AA6E004D5D12 /* NewObjectWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944691F15AA6E004D5D12 /* NewObjectWindowController.m */; };
+		7999446C1F15AA6E004D5D12 /* NewObjectWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7999446A1F15AA6E004D5D12 /* NewObjectWindowController.xib */; };
+		7999446F1F15CE3C004D5D12 /* MainDeviceFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999446E1F15CE3C004D5D12 /* MainDeviceFlagView.m */; };
+		799944711F15CE5B004D5D12 /* MainDeviceFlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944701F15CE5B004D5D12 /* MainDeviceFlagView.xib */; };
+		799944C11F187166004D5D12 /* CMSerialPortEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944C01F187166004D5D12 /* CMSerialPortEntity.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03B4FA258EB23F5563C32D9C /* Pods-COMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-COMate/Pods-COMate.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE91ECF1BF9C4B98B9265FC /* libPods-COMate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-COMate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79641A2A1ECE93760019BA00 /* COMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79641A2D1ECE93760019BA00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79641A2E1ECE93760019BA00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79641A311ECE93760019BA00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79641A361ECE93760019BA00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79641A3B1ECE93760019BA00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7999444C1F139DEB004D5D12 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		7999444E1F13A08A004D5D12 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		7999444F1F13A08A004D5D12 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		799944501F13A08A004D5D12 /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+		799944531F146A2A004D5D12 /* MainDeviceListTableCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDeviceListTableCellView.h; sourceTree = "<group>"; };
+		799944541F146A2B004D5D12 /* MainDeviceListTableCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDeviceListTableCellView.m; sourceTree = "<group>"; };
+		799944561F146A3E004D5D12 /* MainDeviceListTableCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainDeviceListTableCellView.xib; sourceTree = "<group>"; };
+		799944591F147159004D5D12 /* CMEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMEntity.h; sourceTree = "<group>"; };
+		7999445A1F147159004D5D12 /* CMEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMEntity.m; sourceTree = "<group>"; };
+		7999445F1F147A6B004D5D12 /* CMUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMUser.h; sourceTree = "<group>"; };
+		799944601F147A6B004D5D12 /* CMUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMUser.m; sourceTree = "<group>"; };
+		799944631F151FDE004D5D12 /* SerialPortWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialPortWindowController.h; sourceTree = "<group>"; };
+		799944641F151FDE004D5D12 /* SerialPortWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SerialPortWindowController.m; sourceTree = "<group>"; };
+		799944651F151FDE004D5D12 /* SerialPortWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SerialPortWindowController.xib; sourceTree = "<group>"; };
+		799944681F15AA6E004D5D12 /* NewObjectWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewObjectWindowController.h; sourceTree = "<group>"; };
+		799944691F15AA6E004D5D12 /* NewObjectWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewObjectWindowController.m; sourceTree = "<group>"; };
+		7999446A1F15AA6E004D5D12 /* NewObjectWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewObjectWindowController.xib; sourceTree = "<group>"; };
+		7999446D1F15CE3C004D5D12 /* MainDeviceFlagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainDeviceFlagView.h; sourceTree = "<group>"; };
+		7999446E1F15CE3C004D5D12 /* MainDeviceFlagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainDeviceFlagView.m; sourceTree = "<group>"; };
+		799944701F15CE5B004D5D12 /* MainDeviceFlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainDeviceFlagView.xib; sourceTree = "<group>"; };
+		799944BF1F187166004D5D12 /* CMSerialPortEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSerialPortEntity.h; sourceTree = "<group>"; };
+		799944C01F187166004D5D12 /* CMSerialPortEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSerialPortEntity.m; sourceTree = "<group>"; };
+		C9C9F05FDAE3CBB54216F9F2 /* Pods-COMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-COMate/Pods-COMate.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79641A271ECE93760019BA00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7262273D727C77F63A49435F /* libPods-COMate.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42C80024D583FEC820DE641D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03B4FA258EB23F5563C32D9C /* Pods-COMate.debug.xcconfig */,
+				C9C9F05FDAE3CBB54216F9F2 /* Pods-COMate.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		79641A211ECE93760019BA00 = {
+			isa = PBXGroup;
+			children = (
+				79641A2C1ECE93760019BA00 /* COMate */,
+				79641A2B1ECE93760019BA00 /* Products */,
+				79A174501ECE9B770023C742 /* Frameworks */,
+				42C80024D583FEC820DE641D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		79641A2B1ECE93760019BA00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79641A2A1ECE93760019BA00 /* COMate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79641A2C1ECE93760019BA00 /* COMate */ = {
+			isa = PBXGroup;
+			children = (
+				79641A2D1ECE93760019BA00 /* AppDelegate.h */,
+				79641A2E1ECE93760019BA00 /* AppDelegate.m */,
+				7999444E1F13A08A004D5D12 /* MainWindowController.h */,
+				7999444F1F13A08A004D5D12 /* MainWindowController.m */,
+				799944501F13A08A004D5D12 /* MainWindowController.xib */,
+				799944531F146A2A004D5D12 /* MainDeviceListTableCellView.h */,
+				799944541F146A2B004D5D12 /* MainDeviceListTableCellView.m */,
+				799944561F146A3E004D5D12 /* MainDeviceListTableCellView.xib */,
+				7999446D1F15CE3C004D5D12 /* MainDeviceFlagView.h */,
+				7999446E1F15CE3C004D5D12 /* MainDeviceFlagView.m */,
+				799944701F15CE5B004D5D12 /* MainDeviceFlagView.xib */,
+				7999444C1F139DEB004D5D12 /* MainMenu.xib */,
+				799944621F151F84004D5D12 /* View */,
+				799944581F147133004D5D12 /* Models */,
+				79641A361ECE93760019BA00 /* Assets.xcassets */,
+				79641A3B1ECE93760019BA00 /* Info.plist */,
+				79641A301ECE93760019BA00 /* Supporting Files */,
+			);
+			path = COMate;
+			sourceTree = "<group>";
+		};
+		79641A301ECE93760019BA00 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79641A311ECE93760019BA00 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		799944581F147133004D5D12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7999445F1F147A6B004D5D12 /* CMUser.h */,
+				799944601F147A6B004D5D12 /* CMUser.m */,
+				799944591F147159004D5D12 /* CMEntity.h */,
+				7999445A1F147159004D5D12 /* CMEntity.m */,
+				799944BF1F187166004D5D12 /* CMSerialPortEntity.h */,
+				799944C01F187166004D5D12 /* CMSerialPortEntity.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		799944621F151F84004D5D12 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				799944631F151FDE004D5D12 /* SerialPortWindowController.h */,
+				799944641F151FDE004D5D12 /* SerialPortWindowController.m */,
+				799944651F151FDE004D5D12 /* SerialPortWindowController.xib */,
+				799944681F15AA6E004D5D12 /* NewObjectWindowController.h */,
+				799944691F15AA6E004D5D12 /* NewObjectWindowController.m */,
+				7999446A1F15AA6E004D5D12 /* NewObjectWindowController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		79A174501ECE9B770023C742 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1BE91ECF1BF9C4B98B9265FC /* libPods-COMate.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79641A291ECE93760019BA00 /* COMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79641A3E1ECE93760019BA00 /* Build configuration list for PBXNativeTarget "COMate" */;
+			buildPhases = (
+				8695C55BC6C5ADB9243E9CCE /* [CP] Check Pods Manifest.lock */,
+				79641A261ECE93760019BA00 /* Sources */,
+				79641A271ECE93760019BA00 /* Frameworks */,
+				79641A281ECE93760019BA00 /* Resources */,
+				4479D5F5A1F482E3FD892B57 /* [CP] Embed Pods Frameworks */,
+				D6F43C2DFEFE1D612184E60C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = COMate;
+			productName = COMate;
+			productReference = 79641A2A1ECE93760019BA00 /* COMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79641A221ECE93760019BA00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Itsme;
+				TargetAttributes = {
+					79641A291ECE93760019BA00 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2DNT57ZRZX;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+							com.apple.Maps.Mac = {
+								enabled = 0;
+							};
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+							com.apple.iCloud = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 79641A251ECE93760019BA00 /* Build configuration list for PBXProject "COMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79641A211ECE93760019BA00;
+			productRefGroup = 79641A2B1ECE93760019BA00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79641A291ECE93760019BA00 /* COMate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79641A281ECE93760019BA00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799944571F146A3E004D5D12 /* MainDeviceListTableCellView.xib in Resources */,
+				799944671F151FDE004D5D12 /* SerialPortWindowController.xib in Resources */,
+				79641A371ECE93760019BA00 /* Assets.xcassets in Resources */,
+				7999446C1F15AA6E004D5D12 /* NewObjectWindowController.xib in Resources */,
+				799944521F13A08A004D5D12 /* MainWindowController.xib in Resources */,
+				799944711F15CE5B004D5D12 /* MainDeviceFlagView.xib in Resources */,
+				7999444D1F139DEB004D5D12 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4479D5F5A1F482E3FD892B57 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COMate/Pods-COMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8695C55BC6C5ADB9243E9CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-COMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6F43C2DFEFE1D612184E60C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-COMate/Pods-COMate-resources.sh",
+				"${PODS_ROOT}/MASPreferences/Framework/en.lproj/MASPreferencesWindow.xib",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-COMate/Pods-COMate-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79641A261ECE93760019BA00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799944551F146A2B004D5D12 /* MainDeviceListTableCellView.m in Sources */,
+				799944C11F187166004D5D12 /* CMSerialPortEntity.m in Sources */,
+				799944511F13A08A004D5D12 /* MainWindowController.m in Sources */,
+				7999446F1F15CE3C004D5D12 /* MainDeviceFlagView.m in Sources */,
+				7999445B1F147159004D5D12 /* CMEntity.m in Sources */,
+				7999446B1F15AA6E004D5D12 /* NewObjectWindowController.m in Sources */,
+				79641A321ECE93760019BA00 /* main.m in Sources */,
+				799944611F147A6B004D5D12 /* CMUser.m in Sources */,
+				79641A2F1ECE93760019BA00 /* AppDelegate.m in Sources */,
+				799944661F151FDE004D5D12 /* SerialPortWindowController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79641A3C1ECE93760019BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		79641A3D1ECE93760019BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		79641A3F1ECE93760019BA00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B4FA258EB23F5563C32D9C /* Pods-COMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = COMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsme.COMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		79641A401ECE93760019BA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9C9F05FDAE3CBB54216F9F2 /* Pods-COMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = COMate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsme.COMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79641A251ECE93760019BA00 /* Build configuration list for PBXProject "COMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79641A3C1ECE93760019BA00 /* Debug */,
+				79641A3D1ECE93760019BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79641A3E1ECE93760019BA00 /* Build configuration list for PBXNativeTarget "COMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79641A3F1ECE93760019BA00 /* Debug */,
+				79641A401ECE93760019BA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79641A221ECE93760019BA00 /* Project object */;
+}
