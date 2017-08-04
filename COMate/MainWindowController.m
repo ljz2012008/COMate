@@ -11,6 +11,9 @@
 
 #import "NewObjectWindowController.h"
 #import "SerialPortWindowController.h"
+#import "GPIBWindowController.h"
+#import "NetworkPortWindowController.h"
+#import "BluetoothWindowController.h"
 
 #import "CMEntity.h"
 
@@ -113,10 +116,10 @@
     };
     
     __weak __typeof(&*inWindow.titleBarView) weakView = inWindow.titleBarView;
-    [inWindow.titleBarView addSubview:_bugTitleField];
-    [_bugTitleField mas_makeConstraints:^(MASConstraintMaker *make) {
+    [inWindow.titleBarView addSubview:_bugImageView];
+    [_bugImageView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(weakView);
-        make.size.mas_equalTo(CGSizeMake(30, 30));
+        make.size.mas_equalTo(CGSizeMake(111, 37));
     }];
 }
 
@@ -139,9 +142,28 @@
 
 - (IBAction)doubleAction:(id)sender
 {
-    SerialPortWindowController *atempWindowController = [[SerialPortWindowController alloc] initWithWindowNibName:@"SerialPortWindowController"];
-    [atempWindowController showWindow:nil];
-    [_windowControllers addObject:atempWindowController];
+    NSInteger rowIndex = [_mainOutlineView selectedRow];
+    CMEntity *rowEntity = [_mainOutlineView itemAtRow:rowIndex];
+    id aTempWindowController;
+    if (!rowEntity.master) {
+        if (rowEntity.deviceType == CMSerialPortType) {
+            aTempWindowController = [[SerialPortWindowController alloc] initWithWindowNibName:@"SerialPortWindowController"];
+        } else if (rowEntity.deviceType == CMGPIBType) {
+            aTempWindowController = [[GPIBWindowController alloc] initWithWindowNibName:@"GPIBWindowController"];
+        } else if (rowEntity.deviceType == CMNetworkType) {
+            aTempWindowController = [[NetworkPortWindowController alloc] initWithWindowNibName:@"NetworkPortWindowController"];
+        } else if (rowEntity.deviceType == CMBluetoothType) {
+            aTempWindowController = [[BluetoothWindowController alloc] initWithWindowNibName:@"BluetoothWindowController"];
+        }
+        
+        
+        [_windowControllers addObject:aTempWindowController];
+        rowEntity.master = aTempWindowController;
+    }
+    
+    if ([_windowControllers containsObject:rowEntity.master]) {
+        [rowEntity.master showWindow:nil];
+    }
 }
 
 #pragma mark - NSOutlineViewDataSource

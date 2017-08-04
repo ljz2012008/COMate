@@ -25,6 +25,13 @@
 		7999446F1F15CE3C004D5D12 /* MainDeviceFlagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7999446E1F15CE3C004D5D12 /* MainDeviceFlagView.m */; };
 		799944711F15CE5B004D5D12 /* MainDeviceFlagView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944701F15CE5B004D5D12 /* MainDeviceFlagView.xib */; };
 		799944C11F187166004D5D12 /* CMSerialPortEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944C01F187166004D5D12 /* CMSerialPortEntity.m */; };
+		799944C51F1896C4004D5D12 /* GPIBWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944C31F1896C4004D5D12 /* GPIBWindowController.m */; };
+		799944C61F1896C4004D5D12 /* GPIBWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944C41F1896C4004D5D12 /* GPIBWindowController.xib */; };
+		799944CA1F18AE45004D5D12 /* NetworkPortWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944C81F18AE45004D5D12 /* NetworkPortWindowController.m */; };
+		799944CB1F18AE45004D5D12 /* NetworkPortWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944C91F18AE45004D5D12 /* NetworkPortWindowController.xib */; };
+		799944CF1F18AEB8004D5D12 /* BluetoothWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944CD1F18AEB8004D5D12 /* BluetoothWindowController.m */; };
+		799944D01F18AEB8004D5D12 /* BluetoothWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 799944CE1F18AEB8004D5D12 /* BluetoothWindowController.xib */; };
+		799944D31F18B5B2004D5D12 /* CMWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 799944D21F18B5B2004D5D12 /* CMWindowController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +65,17 @@
 		799944701F15CE5B004D5D12 /* MainDeviceFlagView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainDeviceFlagView.xib; sourceTree = "<group>"; };
 		799944BF1F187166004D5D12 /* CMSerialPortEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMSerialPortEntity.h; sourceTree = "<group>"; };
 		799944C01F187166004D5D12 /* CMSerialPortEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMSerialPortEntity.m; sourceTree = "<group>"; };
+		799944C21F1896C4004D5D12 /* GPIBWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPIBWindowController.h; sourceTree = "<group>"; };
+		799944C31F1896C4004D5D12 /* GPIBWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPIBWindowController.m; sourceTree = "<group>"; };
+		799944C41F1896C4004D5D12 /* GPIBWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GPIBWindowController.xib; sourceTree = "<group>"; };
+		799944C71F18AE45004D5D12 /* NetworkPortWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkPortWindowController.h; sourceTree = "<group>"; };
+		799944C81F18AE45004D5D12 /* NetworkPortWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkPortWindowController.m; sourceTree = "<group>"; };
+		799944C91F18AE45004D5D12 /* NetworkPortWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkPortWindowController.xib; sourceTree = "<group>"; };
+		799944CC1F18AEB8004D5D12 /* BluetoothWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BluetoothWindowController.h; sourceTree = "<group>"; };
+		799944CD1F18AEB8004D5D12 /* BluetoothWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BluetoothWindowController.m; sourceTree = "<group>"; };
+		799944CE1F18AEB8004D5D12 /* BluetoothWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BluetoothWindowController.xib; sourceTree = "<group>"; };
+		799944D11F18B5B2004D5D12 /* CMWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMWindowController.h; sourceTree = "<group>"; };
+		799944D21F18B5B2004D5D12 /* CMWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMWindowController.m; sourceTree = "<group>"; };
 		C9C9F05FDAE3CBB54216F9F2 /* Pods-COMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-COMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-COMate/Pods-COMate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,12 +166,23 @@
 		799944621F151F84004D5D12 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				799944631F151FDE004D5D12 /* SerialPortWindowController.h */,
-				799944641F151FDE004D5D12 /* SerialPortWindowController.m */,
-				799944651F151FDE004D5D12 /* SerialPortWindowController.xib */,
 				799944681F15AA6E004D5D12 /* NewObjectWindowController.h */,
 				799944691F15AA6E004D5D12 /* NewObjectWindowController.m */,
 				7999446A1F15AA6E004D5D12 /* NewObjectWindowController.xib */,
+				799944D11F18B5B2004D5D12 /* CMWindowController.h */,
+				799944D21F18B5B2004D5D12 /* CMWindowController.m */,
+				799944631F151FDE004D5D12 /* SerialPortWindowController.h */,
+				799944641F151FDE004D5D12 /* SerialPortWindowController.m */,
+				799944651F151FDE004D5D12 /* SerialPortWindowController.xib */,
+				799944C21F1896C4004D5D12 /* GPIBWindowController.h */,
+				799944C31F1896C4004D5D12 /* GPIBWindowController.m */,
+				799944C41F1896C4004D5D12 /* GPIBWindowController.xib */,
+				799944C71F18AE45004D5D12 /* NetworkPortWindowController.h */,
+				799944C81F18AE45004D5D12 /* NetworkPortWindowController.m */,
+				799944C91F18AE45004D5D12 /* NetworkPortWindowController.xib */,
+				799944CC1F18AEB8004D5D12 /* BluetoothWindowController.h */,
+				799944CD1F18AEB8004D5D12 /* BluetoothWindowController.m */,
+				799944CE1F18AEB8004D5D12 /* BluetoothWindowController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -249,9 +278,12 @@
 				799944671F151FDE004D5D12 /* SerialPortWindowController.xib in Resources */,
 				79641A371ECE93760019BA00 /* Assets.xcassets in Resources */,
 				7999446C1F15AA6E004D5D12 /* NewObjectWindowController.xib in Resources */,
+				799944D01F18AEB8004D5D12 /* BluetoothWindowController.xib in Resources */,
 				799944521F13A08A004D5D12 /* MainWindowController.xib in Resources */,
 				799944711F15CE5B004D5D12 /* MainDeviceFlagView.xib in Resources */,
+				799944CB1F18AE45004D5D12 /* NetworkPortWindowController.xib in Resources */,
 				7999444D1F139DEB004D5D12 /* MainMenu.xib in Resources */,
+				799944C61F1896C4004D5D12 /* GPIBWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,14 +350,18 @@
 			files = (
 				799944551F146A2B004D5D12 /* MainDeviceListTableCellView.m in Sources */,
 				799944C11F187166004D5D12 /* CMSerialPortEntity.m in Sources */,
+				799944C51F1896C4004D5D12 /* GPIBWindowController.m in Sources */,
 				799944511F13A08A004D5D12 /* MainWindowController.m in Sources */,
 				7999446F1F15CE3C004D5D12 /* MainDeviceFlagView.m in Sources */,
 				7999445B1F147159004D5D12 /* CMEntity.m in Sources */,
 				7999446B1F15AA6E004D5D12 /* NewObjectWindowController.m in Sources */,
+				799944CA1F18AE45004D5D12 /* NetworkPortWindowController.m in Sources */,
 				79641A321ECE93760019BA00 /* main.m in Sources */,
 				799944611F147A6B004D5D12 /* CMUser.m in Sources */,
 				79641A2F1ECE93760019BA00 /* AppDelegate.m in Sources */,
+				799944CF1F18AEB8004D5D12 /* BluetoothWindowController.m in Sources */,
 				799944661F151FDE004D5D12 /* SerialPortWindowController.m in Sources */,
+				799944D31F18B5B2004D5D12 /* CMWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

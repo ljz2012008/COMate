@@ -11,7 +11,7 @@
 
 @interface MainWindowController : NSWindowController
 
-@property (weak) IBOutlet NSTextField *bugTitleField;
+@property (weak) IBOutlet NSImageView *bugImageView;
 @property (weak) IBOutlet NSOutlineView *mainOutlineView;
 
 @end
